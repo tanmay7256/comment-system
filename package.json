@@ -1,0 +1,19 @@
+{
+  "name": "comment_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.0.12",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
