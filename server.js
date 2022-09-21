@@ -3,7 +3,7 @@
 const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
-const port = Number(process.env.PORT) || 3000;
+const port = Number(process.env.PORT) || 8080;
 
 app.use(express.static(__dirname + "/public"))
 http.listen(port, () => {
