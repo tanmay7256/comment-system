@@ -5,9 +5,12 @@ function dbconnect() {
     const url = "mongodb://localhost/comments";
 
     mongoose.connect(url, {
-        userNewUrlParser: true,
-        useUnifiedTopology: true,
-        useFindandModify: true,
+        useNewUrlParser: true,
+    useUnifiedTopology: true,
+    family: 4,
+        // userNewUrlParser: true,
+        // useUnifiedTopology: true,
+        // useFindandModify: true,
     })
 
     const connection = mongoose.connection
